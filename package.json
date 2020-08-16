@@ -1,0 +1,19 @@
+{
+  "name": "conform",
+  "version": "1.0.0",
+  "description": "A simple serverless form submission 'app'.  Requires field name, email and message.",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.734.0",
+    "jest": "^26.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "jest --config ./jest.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

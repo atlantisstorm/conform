@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailHelper tests should build with correct params 1`] = `
+Object {
+  "Destination": Object {
+    "ToAddresses": Array [
+      "john@doe.com",
+    ],
+  },
+  "Message": Object {
+    "Body": Object {
+      "Html": Object {
+        "Charset": "UTF-8",
+        "Data": "
+  <table style=\\"width: 640px;\\">
+    <tbody>
+      <tr>
+        <td>
+          <p style=\\"background-color: #ccc; margin: 0px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;\\">Message sent today from <b>This is my domain</b> contact page.</p>
+          <table style=\\"width: 100%;\\">
+            <tbody>
+              <tr>
+                <td style=\\"background-color: #ddd; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\">Name</td>
+                <td style=\\"background-color: #eee; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\">John Doe</td>
+              </tr>
+              <tr>
+                <td style=\\"background-color: #ddd; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\">Email</td>
+                <td style=\\"background-color: #eee; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\"><a href=\\"mailto:test@test.com\\" style=\\"color: #ff3300;\\">test@test.com</a></td>
+              </tr>
+              <tr>
+                <td style=\\"background-color: #ddd; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\" colspan=\\"2\\">Message</td>
+              </tr>
+              <tr>
+                <td style=\\"background-color: #eee; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;;\\" colspan=\\"2\\">This is a very short test message!</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style=\\"background-color: #ccc; margin: 0px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;\\">Message sent from <a href=\\"http://test.com\\" style=\\"color: #ff3300;\\" title=\\"This is my domain\\">test.com</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>",
+      },
+    },
+    "Subject": Object {
+      "Charset": "UTF-8",
+      "Data": "Message from This is my domain!",
+    },
+  },
+  "ReplyToAddresses": Array [
+    "test@test.com",
+  ],
+  "Source": "john@doe.com",
+}
+`;
