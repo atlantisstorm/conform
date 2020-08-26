@@ -2,9 +2,11 @@
 
 A simple serverless form submission 'app'.  Requires field name, email and message.
 
-serverless deploy # defaults to dev
-serverless deploy --stage dev
-serverless deploy --stage prod
+```
+serverless deploy # defaults to dev  
+serverless deploy --stage dev  
+serverless deploy --stage prod  
+```
 
 # Config files.
 
