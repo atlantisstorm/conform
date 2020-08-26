@@ -3,7 +3,7 @@ app: conform
 org: atlantisstorm
 
 custom:
-  secrets: ${file(.secrets.json)}
+  secrets: ${file(.secrets.${opt:stage, 'dev'}.json)}
 
 provider:
   name: aws

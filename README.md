@@ -2,6 +2,10 @@
 
 A simple serverless form submission 'app'.  Requires field name, email and message.
 
+serverless deploy # defaults to dev
+serverless deploy --stage dev
+serverless deploy --stage prod
+
 # Config files.
 
 Setup .secret.json in root directory, required for deployment and should be of the following form where NODE_ENV is dev, staging or prod.
