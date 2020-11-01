@@ -71,6 +71,10 @@ const buildEmailParams = (body, myEmail, myDomain, myDomainTitle) => {
         Html: {
           Charset: 'UTF-8',
           Data: html({ email, name, message, myDomain, myDomainTitle })
+        },
+        Text: {
+          Charset: "UTF-8",
+          Data: text({ email, name, message, myDomain, myDomainTitle })
         }
       },
       Subject: {
